@@ -1,0 +1,3 @@
+﻿INSERT INTO public.merchant (name,country_iso_code,plan,zone_id,language) VALUES ('MasterCardCampaign','CO','PRO','America/Bogota','EN');
+INSERT INTO public.bot (name,description,merchant_id,biz_logic_provider,agent_chat_config) VALUES ('BotBankCampaign','BotBankCampaign',63,'BotBankCampaign','{"type":"B2ChatConnectorFactory"}');
+INSERT INTO public.bot_account (username,access_token, bot_id, provider, alias) VALUES ('qwertyu','qwertyuio123',1612,'FACEBOOK','DevelBankCampaign');
